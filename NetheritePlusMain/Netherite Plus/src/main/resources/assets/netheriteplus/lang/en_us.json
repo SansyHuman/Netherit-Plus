@@ -1,0 +1,16 @@
+{
+  "item.netheriteplus.raw_netherite": "Raw Netherite",
+  "item.netheriteplus.diamond_stick": "Diamond Stick",
+  "item.netheriteplus.netherite_chunk": "Netherite Chunk",
+  "item.netheriteplus.pure_netherite_ingot": "Pure Netherite Ingot",
+  "item.netheriteplus.pure_netherite_sword": "Pure Netherite Sword",
+  "item.netheriteplus.pure_netherite_shovel": "Pure Netherite Shovel",
+  "item.netheriteplus.pure_netherite_pickaxe": "Pure Netherite Pickaxe",
+  "item.netheriteplus.pure_netherite_axe": "Pure Netherite Axe",
+  "item.netheriteplus.pure_netherite_hoe": "Pure Netherite Hoe",
+
+  "block.netheriteplus.nether_netherite_ore": "Nether Netherite Ore",
+  "block.netheriteplus.pure_netherite_block": "Pure Netherite Block",
+
+  "itemGroup.netheriteplus.netheriteplus": "Netherite Plus"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "netheriteplus:diamond_stick"
+    },
+    "X": {
+      "item": "netheriteplus:pure_netherite_ingot"
+    }
+  },
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "result": {
+    "item": "netheriteplus:pure_netherite_hoe"
+  }
+}

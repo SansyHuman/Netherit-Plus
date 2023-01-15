@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 1600,
+  "experience": 24.0,
+  "ingredient": {
+    "item": "netheriteplus:netherite_chunk"
+  },
+  "result": "netheriteplus:pure_netherite_ingot"
+}

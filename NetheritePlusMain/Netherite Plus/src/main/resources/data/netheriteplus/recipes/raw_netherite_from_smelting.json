@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "ingredient": {
+    "item": "netheriteplus:nether_netherite_ore"
+  },
+  "result": "netheriteplus:raw_netherite"
+}
