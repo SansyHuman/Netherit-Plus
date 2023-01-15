@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "netheriteplus:item/pure_netherite_chestplate"
+  }
+}

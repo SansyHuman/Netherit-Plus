@@ -5,6 +5,8 @@ import com.sansyhuman.netheriteplus.MOD_ID
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents
 import net.minecraft.block.Block
+import net.minecraft.entity.EquipmentSlot
+import net.minecraft.item.ArmorItem
 import net.minecraft.item.AxeItem
 import net.minecraft.item.BlockItem
 import net.minecraft.item.HoeItem
@@ -47,6 +49,18 @@ val PURE_NETHERITE_AXE = registerItem("pure_netherite_axe", AxeItem(
 val PURE_NETHERITE_HOE = registerItem("pure_netherite_hoe", ModHoeItem(
     ModToolMaterial.PURE_NETHERITE, -6, 0.0f, FabricItemSettings().fireproof().rarity(Rarity.EPIC)
 ), NETHERITEPLUS_GROUP, ItemGroups.TOOLS)
+val PURE_NETHERITE_HELMET = registerItem("pure_netherite_helmet", ArmorItem(
+    ModArmorMaterials.PURE_NETHERITE, EquipmentSlot.HEAD, FabricItemSettings().fireproof().rarity(Rarity.EPIC)
+), NETHERITEPLUS_GROUP, ItemGroups.COMBAT)
+val PURE_NETHERITE_CHESTPLATE = registerItem("pure_netherite_chestplate", ArmorItem(
+    ModArmorMaterials.PURE_NETHERITE, EquipmentSlot.CHEST, FabricItemSettings().fireproof().rarity(Rarity.EPIC)
+), NETHERITEPLUS_GROUP, ItemGroups.COMBAT)
+val PURE_NETHERITE_LEGGINGS = registerItem("pure_netherite_leggings", ArmorItem(
+    ModArmorMaterials.PURE_NETHERITE, EquipmentSlot.LEGS, FabricItemSettings().fireproof().rarity(Rarity.EPIC)
+), NETHERITEPLUS_GROUP, ItemGroups.COMBAT)
+val PURE_NETHERITE_BOOTS = registerItem("pure_netherite_boots", ArmorItem(
+    ModArmorMaterials.PURE_NETHERITE, EquipmentSlot.FEET, FabricItemSettings().fireproof().rarity(Rarity.EPIC)
+), NETHERITEPLUS_GROUP, ItemGroups.COMBAT)
 val PURE_NETHERITE_BLOCK = registerBlockItem(BlockItem(
     com.sansyhuman.netheriteplus.block.PURE_NETHERITE_BLOCK,
     FabricItemSettings().fireproof().rarity(Rarity.RARE)), NETHERITEPLUS_GROUP, ItemGroups.BUILDING_BLOCKS
@@ -99,4 +113,6 @@ private fun registerBlockItem(blockItem: BlockItem, vararg tabs: ItemGroup): Ite
 
 internal fun initModItems() {
     LOGGER.info("Initialize items")
+
+    Items.NETHERITE_HELMET
 }
